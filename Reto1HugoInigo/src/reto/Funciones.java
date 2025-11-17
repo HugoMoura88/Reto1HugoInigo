@@ -11,7 +11,7 @@ public class Funciones {
 		do
 		{
 		try {
-			System.out.println(texto);
+			System.out.print(texto);
 			String s = sc.nextLine();
 			int n= Integer.parseInt(s);
 			return n;

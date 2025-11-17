@@ -20,9 +20,19 @@ public class Reto1 {
 				0. Salir
 				""";
 		System.out.println(menu);
-		String cadena = sc.nextLine();
-		int opcion = Integer.parseInt(cadena);
-				
+		int opcion = Funciones.dimeEntero("Opcion: ", sc);
+			switch (opcion) {
+
+			case 1 -> System.out.println(Funciones1.sumar(3, 4));
+			case 2 -> System.out.println(Funciones1.restar(5, 2));
+			case 3 -> System.out.println(Funciones2.multiplicar(2, 4));
+			case 4 -> System.out.println(Funciones2.dividir(4, 2));
+			case 5 -> System.out.println(Funciones1.esPar(1));
+			case 6 -> System.out.println(Funciones1.esImpar(2));
+			case 7 -> System.out.println(Funciones2.esPositivo(3));
+			case 8 -> System.out.println(Funciones2.esNegativo(-4));
+			default -> System.out.println("Opcion no valida"); 
+			}
 				
 				
 		
