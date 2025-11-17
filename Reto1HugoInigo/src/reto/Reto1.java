@@ -23,7 +23,7 @@ public class Reto1 {
 		int opcion = Funciones.dimeEntero("Opcion: ", sc);
 			switch (opcion) {
 
-			case 1 -> System.out.println(Funciones1.sumar(3, 4));
+			case 1 -> System.out.println(Funciones1.sumar(sc));
 			case 2 -> System.out.println(Funciones1.restar(5, 2));
 			case 3 -> System.out.println(Funciones2.multiplicar(2, 4));
 			case 4 -> System.out.println(Funciones2.dividir(4, 2));
