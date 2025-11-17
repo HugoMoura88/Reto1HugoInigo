@@ -19,7 +19,7 @@ public class Funciones1 {
 		}
 	}
 	
-	public static void name() {
-		
+	public static boolean esImpar(int n) {
+		return n%2!=0;
 	}
 }
